@@ -28,3 +28,8 @@ The other major component of the game Space shuttle itself, which is drawn using
 Coming to the implementation of the game logic, the call-backs to the mouse take care of jumping the space shuttle over the obstacles from the track on which it is travelling. The obstacles are moved towards the user so that the relative motion with the space shuttle gives a feeling of moving space shuttle. Keyboard call-backs are used to move the space shuttle left or right while avoiding the sabotage. When the distance between the space shuttle and the obstacle becomes nil then the gameover function is called. 
 
 This project was designed to demonstrate the working of OpenGL API. Since the code is well-commented, any moderately skilled programmer can modify this project as required. As the game basically describes a 3-dimensional first-person driving game, it is possible to expand this into other games of a similar kind, with different objects and/or rules of gameplay. 
+
+HOW TO COMPILE:
+To save the file vi filename.c
+To execute cc -o filename.out filename.c -lGL -lGLU -lglut
+to run ./filename.out
